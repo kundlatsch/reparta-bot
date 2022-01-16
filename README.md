@@ -12,9 +12,9 @@ In Albion Online, when you kill a player in a full-loot map, the equipment the k
 
 * `!r loot` - Clean the database to start a new loot splitting. The database is shared with the server, so if another party is using the bot at the same time as yours, you will have issues. Remember to always start a new splitting with this command before anyone adds a value entry.
 
-*`!r add <int>` - Add a new value to the pool. This value can be positive (a loot) or negative (a repair cost). The value must be an integer (the backend will try to convert it and give an error if it is not possible). The bot will react with `:thumbsup:` if the operation has succeeded.
+* `!r add <int>` - Add a new value to the pool. This value can be positive (a loot) or negative (a repair cost). The value must be an integer (the backend will try to convert it and give an error if it is not possible). The bot will react with `:thumbsup:` if the operation has succeeded.
 
-*`r! calc` - Calculates the final loot for the party. This command does not clean the database, so you can add more values and calculate the final loot again.
+* `r! calc` - Calculates the final loot for the party. This command does not clean the database, so you can add more values and calculate the final loot again.
 
 ## Dev
 
