@@ -13,7 +13,8 @@ module.exports = {
 
             loots.map(loot => {
                 const user = loot.user;
-                if (!repair_per_user[user]) {
+                if (!(user in repair_per_user)) {
+                    console.log(user, number_of_users);
                     repair_per_user[user] = 0;
                     number_of_users += 1;
                 }
