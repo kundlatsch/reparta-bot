@@ -4,6 +4,9 @@
   "description": "",
   "main": "app.js",
   "keywords": [],
+  "scripts": {
+    "start": "node app.js"
+  },
   "author": "@kundlatsch",
   "license": "ISC",
   "dependencies": {
