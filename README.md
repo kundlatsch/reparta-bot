@@ -1,1 +1,1 @@
-# REPARTA BOT
+This branch provides a simple base bot implementation that can be used as boilerplate code.
